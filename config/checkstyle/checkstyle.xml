@@ -3,6 +3,9 @@
 <module name="Checker">
 
     <module name="TreeWalker">
+	<module name="Checker">
+	  <property name="severity" value="warning"/>
+	</module>
 	<module name="MethodLength">
 	  <property name="tokens" value="METHOD_DEF"/>
   	  <property name="max" value="15"/>
